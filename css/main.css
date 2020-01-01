@@ -1,0 +1,425 @@
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar .btn {
+    width: 140px;
+    height: 50px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: rgb(19, 17, 17) !important;
+}
+
+.navbar .navbar-nav .active .nav-link {
+    color: #4cca8f !important;
+}
+
+header {
+    background-image: url(../images/home_01_1920x1080.jpg);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500px;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+header p span {
+    color: #4cca8f;
+}
+
+header button {
+    width: 140px;
+    height: 50px;
+    background-color: #4cca8f !important;
+    border: none !important;
+}
+
+header div {
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+header div i {
+    color: #4cca8f;
+}
+
+.sec-1 {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.sec-1 i {
+    font-size: 64px;
+    color: #4cca8f;
+}
+
+.sec-1 h4 {
+    font-size: 24px;
+    color: #4cca8f;
+}
+
+.sec-2 {
+    text-align: center;
+}
+
+.line {
+    width: 20%;
+    height: 2px;
+    background-color: #4cca8f;
+    margin: auto;
+
+}
+
+.sec-2 p {
+    line-height: 300;
+    font-size: 18px;
+    line-height: 34px;
+    color: #888888;
+}
+
+.sec-2 h3 {
+    line-height: 200;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.sec-3 {
+    background-image: url(../images/bg_image_01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+
+.sec-3 ul {
+    list-style-type: none;
+    line-height: 37px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.sec-3 h4 {
+    font-size: 30px;
+    font-weight: 200;
+
+}
+
+.sec-3 ul li {
+    line-height: 80px;
+
+}
+
+.line2 {
+    width: 20%;
+    height: 2px;
+    background-color: #fff;
+
+}
+
+.sec-3 .disc {
+    width: 50%;
+    margin-left: auto;
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+    .sec-3 .disc {
+
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sec-3 .line2 {
+        margin: auto;
+    }
+
+    .sec-3 i {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+}
+.sec-4 .row .col-md-3 i
+{
+    color: #4cca8f;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.sec-4 p
+{
+color: #888888;
+font-size: 18px;
+font-weight: 300;
+line-height: 34px;
+}
+.sec-5 img
+{
+    width: 100%;
+}
+.sec-5 .container-fluid
+{
+    padding: 0;
+    overflow: hidden;
+}
+.sec-5 .container-fluid .col-md-4
+{
+    padding: 0;
+position: relative;
+}
+
+.trans
+{
+    position: absolute;
+top:0%;
+left: 0;
+background-color: rgba(35, 248, 149, 0.7);
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: 1s opacity;
+}
+.sec-5 .container-fluid .col-md-4:hover .trans
+{
+    position: absolute;
+top:0%;
+left: 0;
+background-color: rgba(35, 248, 149, 0.7);
+width: 100%;
+height: 100%;
+opacity: 1;
+}
+.trans i
+{
+font-size: 40px;
+color: #fff;
+}
+.sec-6 ul
+{
+list-style-type: none;
+padding: 0;
+}
+.sec-6 .card .line-2
+{
+width: 50%;
+height: 1px;
+background-color: #4cca8f;
+margin: auto;
+}
+.sec-6 .dis
+{
+    color: #888888;
+}
+.card span
+{
+    color: #4cca8f;
+    font-size:30px;
+}
+.sec-6 .card
+{
+    overflow: hidden;
+    position: relative;
+}
+.ovver
+{
+padding:20px 80px;
+background-color: #4cca8f;
+transform: rotate(45deg);
+position: absolute;
+right:-60px;
+}
+.sec-7
+{
+background-image: url(../images/home_parallax_01.jpg);
+width: 100%;
+color: #fff;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+.sec-7 h3
+{
+    color: #4cca8f;
+}
+.sec-7 .row .col-md-4 p
+{
+    font-size:18px;
+    font-weight:300;
+    line-height: 34px;
+}
+.sec-7 .num
+{
+    width: 15%;
+color: #4cca8f;
+font-size: 50px;
+font-weight: 900;
+}
+.sec-7 .disc-7
+{
+    width: 85%;
+}
+.sec-8
+{
+    line-height: 40px;
+}
+.sec-8 i
+{
+    color: #4cca8f;
+    font-size: 40px;
+}
+.sec-8 .card p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #888888;
+}
+.sec-8 .person .im
+{
+    width: 30%;
+float: left;
+}
+.sec-8 .dat-person
+{
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.sec-8 .person .dat-person h4
+{
+    color: #4cca8f;
+}
+.sec-8 .col-md-4 .card
+{
+    position: relative;
+}
+.sec-8 .col-md-4 .card .shape::before
+{
+    content: "";
+position: absolute;
+width: 20%;
+height: 10px;
+background-color: white;
+top:100%;
+left: 10%;
+}
+.sec-8 .col-md-4 .card .shape2::before
+{
+    content: "";
+position: absolute;
+width: 19px;
+height: 19px;
+background-color: #fff;
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+transform: rotate(45deg);
+top:97%;
+left: 10%;
+}
+@media (max-width:800px)
+{
+.sec-9 .row
+{
+text-align: center;}
+}
+.sec-10
+{
+    background-image: url(../images/home_parallax_02.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.register
+{
+    width: 50%;
+    margin-left: auto;
+    color: #fff;
+}
+.register button
+{
+    width: 150px;
+    height: 50px;
+    background-color: #4cca8f;
+    border: none;
+}
+.sec-11
+{
+font-size: 30px;
+}
+.sec-11 p
+{
+font-size: 30px;
+}
+.sec-11 p span
+{
+    color: #4cca8f;
+}
+footer{
+    text-align: center;
+    margin: auto;
+}
+footer ul
+{
+    text-align: center;
+    list-style-type: none;
+padding: 0;
+}
+footer ul li
+{
+    display: inline;
+}
+footer ul li i
+{
+    color: #4cca8f;
+    font-size: 20px;
+}
+footer button
+{
+    width:100%;
+    height: 100%;
+    background-color: #4cca8f !important;
+    border: none !important;
+}
+footer
+{
+    background-color: #f1f1f1;
+}
+@media (max-width:800px)
+{
+.register
+{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+footer .col-md-3
+{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.sec-8 .col
+{
+    padding: 0;
+}
+}
